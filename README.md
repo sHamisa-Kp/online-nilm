@@ -1,4 +1,4 @@
-# SHAMISA TEST
+# SHAMISA TEST2
 # Online NILM
 Here you can find the code for the two proposed Neural Network architectures from 
 
