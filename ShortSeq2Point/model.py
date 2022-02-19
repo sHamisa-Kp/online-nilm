@@ -1,6 +1,6 @@
-from keras.models import Sequential, load_model
-from keras.layers import Dense, Conv1D, GRU, Bidirectional, Dropout, Flatten
-from keras.utils import plot_model
+from tensorflow.keras.models import Sequential, load_model
+from tensorflow.keras.layers import Dense, Conv1D, GRU, Bidirectional, Dropout, Flatten
+from tensorflow.keras.utils import plot_model
 
 def create_model(input_window):
 	'''Creates and returns the ShortSeq2Point Network
