@@ -7,10 +7,10 @@ import numpy as np
 import time
 import json
 
-from keras.models import Sequential, load_model
-from keras.callbacks import ModelCheckpoint
+from tensorflow.keras.models import Sequential, load_model
+from tensorflow.keras.callbacks import ModelCheckpoint
 
-from nilmtk import DataSet
+#from nilmtk import DataSet
 import metrics
 from gen import opends, gen_batch
 from model import create_model
